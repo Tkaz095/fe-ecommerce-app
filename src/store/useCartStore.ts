@@ -1,12 +1,7 @@
 import { create } from 'zustand';
+import { Product } from '../types/product.types';
 
-export interface Product {
-    id: string;
-    name: string;
-    price: number;
-    image: string;
-    description?: string;
-}
+export type { Product };  // re-export for backward compatibility
 
 interface CartItem extends Product {
     quantity: number;
