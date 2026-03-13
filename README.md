@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce App
 
-Ứng dụng thương mại điện tử xây dựng bằng **React Native + Expo SDK 51**, tổ chức theo mô hình **Modular / Feature-based**.
+Ứng dụng thương mại điện tử xây dựng bằng **React Native + Expo SDK 54**, tổ chức theo mô hình **Modular / Feature-based**.
 
 ---
 
@@ -17,7 +17,7 @@ npm run ios            # Chạy trực tiếp iOS
 npm run web            # Chạy trên trình duyệt
 
 # 3. Quét QR bằng Expo Go trên điện thoại
-#    ⚠️ Yêu cầu Expo Go hỗ trợ SDK 51
+#    ⚠️ Yêu cầu App Expo Go mới nhất (Hỗ trợ SDK 54)
 ```
 
 > **Lưu ý:** PC và điện thoại phải kết nối **cùng mạng WiFi**.  
@@ -29,13 +29,13 @@ npm run web            # Chạy trên trình duyệt
 
 | Package | Version |
 |---|---|
-| Expo SDK | **~51.0.0** |
-| React Native | **0.74.5** |
-| React | **18.2.0** |
+| Expo SDK | **~54.0.0** |
+| React Native | **0.81.5** |
+| React | **19.1.0** |
 | @react-navigation | **v6** |
 | Zustand | **v4** |
 | Axios | **^1.7.2** |
-| TypeScript | **~5.3.3** |
+| TypeScript | **~5.9.2** |
 
 ---
 
